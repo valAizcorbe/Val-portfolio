@@ -7,7 +7,7 @@ export const theme = {
 
 export const Bar = styled.div`
 height: 100vh;
-width: 10%;
+width: 10em;
 background-color: ${props => props.theme.dbg};
 display: flex;
 flex-direction: column;
