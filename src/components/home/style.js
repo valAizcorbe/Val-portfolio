@@ -8,15 +8,6 @@ export const theme = {
     laurel: '#B2C9AB'
 }
 
-export const Intro = styled.p`
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 10%;
-text-align: center;
-font-size: xx-large;
-font-family: 'Josefin Slab', serif;
-`
 export const Box = styled.div`
 display: flex;
 align-items: center;
@@ -24,18 +15,29 @@ justify-content: center;
 flex-direction: column;
 color: ${props => props.theme.darkBlueG};
 background-color: ${props => props.theme.opal};
-// width: 100%;
+width: 100vw;
+height: 100vh;
 `
+export const Intro = styled.p`
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10%;
+text-align: center;
+font-size: xx-large;
+font-family: 'Raleway', sans-serif;
+`
+
 
 export const Phrase = styled.h3`
 font-size: xxx-large;
-font-family: 'Xanh Mono', monospace;
-font-style: italic;
+font-family: 'Abel', sans-serif;
+// font-style: italic;
 ;
 
 `
-export const Name = styled.h2`
-font-size: xxx-large;
-font-family: 'Xanh Mono', monospace;
-// font-style: italic;
-`
+// export const Name = styled.h2`
+// font-size: xxx-large;
+// 'font-family: 'Abel', sans-serif;
+// // font-style: italic;
+// `

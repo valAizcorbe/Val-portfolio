@@ -31,7 +31,7 @@ align-items: center;
 `
 
 export const Title = styled.h1`
-font-family: 'Xanh Mono', monospace;
+font-family: 'Raleway', sans-serif;
 `
 
 export const Button = styled.button`
@@ -43,7 +43,7 @@ border-radius: 5px;
 width: 12em;
 height: 3em;
 margin: 1em;
-font-family: 'Poiret One', cursive;
+font-family: 'Abel', sans-serif;
 font-weight: bolder;
 font-size: x-large;
 

@@ -23,6 +23,12 @@ overflow: hidden;
     
 }
 
+&& {
+    @media (max-width: 950px){
+    display: none;
+    }
+}
+
 `
 
 export const Icon = styled.button`
