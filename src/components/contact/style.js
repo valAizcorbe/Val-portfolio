@@ -12,8 +12,8 @@ export const ContactBox = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: ${props => props.theme.dutchWhite};
-color: ${props => props.theme.shadowBlue};
+background-color: ${props => props.theme.opal};
+color: ${props => props.theme.darkBlueG};
 width: 100%;
 // overflow: none; 
 & a{

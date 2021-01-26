@@ -8,6 +8,21 @@ export const theme = {
     laurel: '#B2C9AB'
 }
 
+
+
+export const AboutBox = styled.div`
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: ${props => props.theme.laurel};
+color: ${props => props.theme.darkBlueG};
+
+
+`
+
 export const ButtonResume = styled.button`
 border: 3px solid;
 border-color: #788AA3;
@@ -21,34 +36,15 @@ font-family: 'Abel', sans-serif;
 font-weight: bolder;
 font-size: x-large;
 
-    // &:hover {
+    &:hover {
         
-    //         background-color: #788AA3;
-    //         color: #E8DDB5; }
+            background-color: #788AA3;
+            color: #E8DDB5; }
         
     
     &:focus { outline: none; }
 
 `
-
-export const AboutBox = styled.div`
-width: 100vw;
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-background-color: ${props => props.theme.laurel};
-color: ${props => props.theme.darkBlueG};
-
-// &:hover ${ButtonResume} {
-
-//      background-color: #788AA3;
-//         color: #B2C9AB;
-//     }
-
-`
-
 
 export const TextAbout = styled.p`
 font-family: 'Raleway', sans-serif;

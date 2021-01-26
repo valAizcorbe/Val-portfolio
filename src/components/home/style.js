@@ -12,32 +12,42 @@ export const Box = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
-flex-direction: column;
-color: ${props => props.theme.darkBlueG};
-background-color: ${props => props.theme.opal};
+color: ${props => props.theme.shadowBlue};
+background-color: ${props => props.theme.dutchWhite};
 width: 100vw;
 height: 100vh;
+flex-direction: column;
+
 `
 export const Intro = styled.p`
 display: flex;
 align-items: center;
 justify-content: center;
-padding: 10%;
+padding: 2em;
 text-align: center;
 font-size: xx-large;
 font-family: 'Raleway', sans-serif;
+flex-direction: column;
 `
 
 
 export const Phrase = styled.h3`
 font-size: xxx-large;
 font-family: 'Abel', sans-serif;
-// font-style: italic;
+
 ;
 
 `
-// export const Name = styled.h2`
-// font-size: xxx-large;
-// 'font-family: 'Abel', sans-serif;
-// // font-style: italic;
-// `
+export const Name = styled.img`
+width: 50%;
+height: 30%;
+margin: 4em 0.5em 0.5em 0.5em;
+
+// && {
+//     @media (max-width: 900px) {
+//         width: 50%;
+//         height: 25%;
+
+//     }
+// }
+`
