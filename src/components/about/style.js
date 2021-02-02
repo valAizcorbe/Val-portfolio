@@ -28,7 +28,7 @@ border: 3px solid;
 border-color: #788AA3;
 background-color: transparent;
 color: #788AA3;
-border-radius: 5px;
+border-radius: 30px;
 width: 12em;
 height: 3em;
 margin: 1em;
@@ -48,7 +48,7 @@ font-size: x-large;
 
 export const TextAbout = styled.p`
 font-family: 'Raleway', sans-serif;
-font-size: xx-large;
+font-size: x-large;
 margin: 1em 3em;
 text-align: center;
 
@@ -56,7 +56,7 @@ text-align: center;
 
 export const List = styled.ul`
 column-count: 4;
-font-size: Xx-large;
+font-size: x-large;
 font-weight: bold;
 font-family: 'Abel', sans-serif;
 line-height: 1.5;
@@ -72,7 +72,7 @@ margin: 1em;
 
 export const Description = styled.h1`
 font-family: 'Raleway', sans-serif;
-font-size: xx-large;
+font-size: x-large;
 font-weight: lighter;
 text-align: center;
 margin: 1em 2em;

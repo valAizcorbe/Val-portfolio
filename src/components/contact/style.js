@@ -8,14 +8,15 @@ export const theme = {
     laurel: '#B2C9AB'
 }
 
-export const ContactBox = styled.div`
+export const ContactBox = styled.body`
 display: flex;
 justify-content: center;
 align-items: center;
 background-color: ${props => props.theme.opal};
 color: ${props => props.theme.darkBlueG};
 width: 100%;
-// overflow: none; 
+height: 100vh;
+
 & a{
     text-decoration: none;
     
@@ -39,7 +40,7 @@ border: 3px solid;
 border-color: #788AA3;
 background-color: transparent;
 color: #788AA3;
-border-radius: 5px;
+border-radius: 30px;
 width: 12em;
 height: 3em;
 margin: 1em;

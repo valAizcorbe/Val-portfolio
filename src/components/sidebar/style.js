@@ -10,7 +10,7 @@ export const theme = {
 
 export const Bar = styled.div`
 height: 100vh;
-width: 10em;
+width: 5em;
 background-color: ${props => props.theme.shadowBlue};
 display: flex;
 flex-direction: column;
