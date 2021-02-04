@@ -9,15 +9,14 @@ export const theme = {
 }
 
 export const Bar = styled.div`
-height: 100vh;
+height: 100%;
 width: 5em;
 background-color: ${props => props.theme.shadowBlue};
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-evenly;
-align-self: flex-end;
-overflow: hidden;
+position: fixed;
 & a {
     color: ${props => props.theme.dutchWhite};
     
@@ -25,7 +24,10 @@ overflow: hidden;
 
 && {
     @media (max-width: 950px){
-    display: none;
+    width: 100%;
+    height: 5em;
+    flex-direction: row;
+     
     }
 }
 
@@ -34,7 +36,7 @@ overflow: hidden;
 export const Icon = styled.button`
 font-size: 25px;
 &:hover {
-    font-size: 30px;
+    font-size: 35px;
 }
 font-style: large;
 border: none;

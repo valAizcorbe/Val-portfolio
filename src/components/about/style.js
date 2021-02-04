@@ -11,15 +11,21 @@ export const theme = {
 
 
 export const AboutBox = styled.div`
-width: 100vw;
-height: 100vh;
+width: 100%;
+height: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 background-color: ${props => props.theme.laurel};
 color: ${props => props.theme.darkBlueG};
-
+margin-right: 5em;
+&& {
+    @media (max-width: 950px){
+        margin-top: 5em;
+        
+    }
+}
 
 `
 

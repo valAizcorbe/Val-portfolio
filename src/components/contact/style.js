@@ -16,6 +16,14 @@ background-color: ${props => props.theme.opal};
 color: ${props => props.theme.darkBlueG};
 width: 100%;
 height: 100vh;
+margin-right: 5em;
+
+& {
+    @media (max-width: 950px){
+        margin-top: 5em;
+        
+    }
+}
 
 & a{
     text-decoration: none;

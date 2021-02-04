@@ -11,8 +11,15 @@ export const theme = {
 export const Pbox = styled.div`
 background-color: ${props => props.theme.darkBlueG};
 color: ${props => props.theme.laurel};
-width: 100vw;
-height:100vh;
+width: 100%;
+height:100%;
+margin-right: 5em;
+&& {
+    @media (max-width: 950px){
+        margin-top: 5em;
+        
+    }
+}
 
 & a{
     text-decoration: none;
@@ -22,9 +29,11 @@ height:100vh;
 
 export const Head = styled.div`
 display: flex;
-// flex-direction: column;
+flex-flow: row wrap;
 justify-content: space-around;
-align-items: center`
+align-items: center
+
+`
 
 export const Title = styled.h1`
 font-family: 'Raleway', sans-serif;
@@ -55,4 +64,12 @@ align-items:center;
     color: #E8DDB5; }
 
     &:focus { outline: none; }
+`
+
+export const Grid = styled.div`
+display:flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: space-evenly;
+column-count: 3;
 `

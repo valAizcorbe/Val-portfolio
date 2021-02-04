@@ -17,7 +17,14 @@ background-color: ${props => props.theme.dutchWhite};
 width: 100vw;
 height: 100vh;
 flex-direction: column;
-
+margin-right: 5em;
+&& {
+    @media (max-width: 950px){
+    
+    margin-top: 5em;
+        
+    }
+}
 `
 export const Intro = styled.p`
 display: flex;
@@ -28,6 +35,13 @@ text-align: center;
 font-size: xx-large;
 font-family: 'Raleway', sans-serif;
 flex-direction: column;
+
+&& {
+    @media (max-width: 900px) {
+        font-size: large;
+
+    }
+}
 `
 
 
@@ -43,11 +57,11 @@ width: 50%;
 height: 30%;
 margin: 4em 0.5em 0.5em 0.5em;
 
-// && {
-//     @media (max-width: 900px) {
-//         width: 50%;
-//         height: 25%;
+&& {
+    @media (max-width: 900px) {
+        width: 50%;
+        height: 20%;
 
-//     }
-// }
+    }
+}
 `

@@ -5,8 +5,8 @@ function About() {
     return(
         <AboutBox theme={theme}>
             
-<TextAbout>I am a full stack developer from Peru with a background of administration and finances. I changed my career not too long ago and I finally love what I do!
-While studying development, I realized that I love solving problems with code and work on projects that help people. Now I’m looking for more opportunities as a developer, where I can apply my knowledge, learn new skills and help create powerful programs and websites.</TextAbout>
+<TextAbout>I am a full stack developer based in Utah with a background of administration and finances. I changed my career not too long ago and I finally love what I do!
+While studying development at DevMountain, I realized that I love solving problems with code and work on projects that help people. Now I’m looking for more opportunities as a developer, where I can apply my knowledge, learn new skills and help create powerful programs and websites.</TextAbout>
 
 <Description>Here are some of the Languages and Tools I have learned and used to build a website: </Description>
 
