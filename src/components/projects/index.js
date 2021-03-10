@@ -3,6 +3,7 @@ import {Pbox, Pbutton, theme,Title, Head, Grid} from './style';
 import {AiOutlineGithub} from 'react-icons/ai'
 import {FiCode} from 'react-icons/fi'
 import SingleProject from './singleProject';
+import avalanche from '../../imgs/avalanche.mp4'
 
 function Projects() {
 
@@ -10,7 +11,7 @@ function Projects() {
         {
          
             title: "Recipes",
-            video: 'blob:https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
+            video: `${avalanche}`,
             description:'lala',
     
         },
