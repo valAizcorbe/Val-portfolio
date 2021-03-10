@@ -18,31 +18,28 @@ function Projects() {
         {
         
             title: "Avalanche",
-            video: 'blob:https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
-            description:`Avalanche is an app that helps you calculate when you'll be debt free and start having savings. I created this website in 2 weeks when I had almost 2 months of experience using
-            REACT REDUX, REACT-ROUTER, JAVASCRIPT, CSS, HTML, SQL, NODE, EXPRESS, EXPRESS-SESSION, BCRYPT, MASSIVE
-            and
-            CHARTJS`,
+            video: 'https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
+            description:`Avalanche is an app that helps you calculate when you'll be debt free and start having savings. 
+            REACT REDUX | REACT-ROUTER | JAVASCRIPT | CSS | HTML | SQL | NODE | EXPRESS | EXPRESS-SESSION | BCRYPT | MASSIVE | CHARTJS`
             
         }, {
           
             title: "Artistry",
-            video: 'blob:https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
+            video: 'https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
             description:`Group Project:
-            Artistry is a social media website for Artists. They can sign in our website, and start posting about their art, videos and writing! They can 'save' the art that other account posted, make comments and just enjoy Artistry. We created this website using
-            REACT, REACT REDUX, REACT PLAYER, REACT-ROUTER, JAVASCRIPT, CSS, HTML, SQL, NODE, EXPRESS, EXPRESS-SESSION, BCRYPT
-            and
-            MASSIVE.`,
+            Artistry is a social media website for Artists. They can sign in our website, and start posting about their art, videos and writing! They can 'save' the art that other account posted, make comments and just enjoy Artistry. 
+
+            REACT | REACT REDUX | REACT PLAYER | REACT-ROUTER | JAVASCRIPT | CSS | HTML | SQL | NODE | EXPRESS | EXPRESS-SESSION | BCRYPT | MASSIVE.`,
             
         }, {
            
             title: "Google-Chat",
-            video: 'blob:https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
+            video: 'https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
             description:`lala`,
             
         }, {
             title: "Recipe - API",
-            video: 'blob:https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
+            video: 'https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
             description:`lala`,
             
         }

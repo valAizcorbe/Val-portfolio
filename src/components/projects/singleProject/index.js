@@ -1,5 +1,5 @@
 import React from 'react';
-import {Case, Video} from './style';
+import {Case, Video, Description, Title} from './style';
 
 
 function SingleProject ({title, video, description}){
@@ -7,9 +7,9 @@ function SingleProject ({title, video, description}){
     return(
           
         <Case>
-            <h1>{title}</h1>
+            <Title>{title}</Title>
             <Video src={video} type='video/mp4' controls></Video>
-            <p>{description}</p>
+            <Description>{description}</Description>
         </Case>
         
       
