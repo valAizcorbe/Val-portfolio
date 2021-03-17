@@ -10,37 +10,44 @@ function Projects() {
     const projects = [
         {
          
-            title: "Recipes",
-            video: `${avalanche}`,
-            description:'lala',
+            title: "Recipe",
+            video: ``,
+            description:'This is my first project. I build a NODB recipe app. You can add, edit, delete and update as many recipes as you want. I really enjoyed building it because I learned more while developing it.',
+            tools: 'REACT | JAVASCRIPT | CSS | HTML | NODE | EXPRESS',
+            code: 'https://github.com/valAizcorbe/NODB'
     
         },
         {
         
             title: "Avalanche",
-            video: 'https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
-            description:`Avalanche is an app that helps you calculate when you'll be debt free and start having savings. 
-            REACT REDUX | REACT-ROUTER | JAVASCRIPT | CSS | HTML | SQL | NODE | EXPRESS | EXPRESS-SESSION | BCRYPT | MASSIVE | CHARTJS`
+            video: `${avalanche}`,
+            description:`Avalanche is an app that helps you calculate when you'll be debt free and start having savings. `,
+            tools: 'REACT REDUX | REACT-ROUTER | JAVASCRIPT | CSS | HTML | SQL | NODE | EXPRESS | EXPRESS-SESSION | BCRYPT | MASSIVE | CHARTJS',
+            code: 'https://github.com/valAizcorbe/avalanche.github.io'
             
         }, {
           
             title: "Artistry",
             video: 'https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
             description:`Group Project:
-            Artistry is a social media website for Artists. They can sign in our website, and start posting about their art, videos and writing! They can 'save' the art that other account posted, make comments and just enjoy Artistry. 
-
-            REACT | REACT REDUX | REACT PLAYER | REACT-ROUTER | JAVASCRIPT | CSS | HTML | SQL | NODE | EXPRESS | EXPRESS-SESSION | BCRYPT | MASSIVE.`,
+            Artistry is a social media website for Artists. They can sign in our website, and start posting about their art, videos and writing! They can 'save' the art that other account posted, make comments and just enjoy Artistry. `,
+            tools: 'REACT | REACT REDUX | REACT PLAYER | REACT-ROUTER | JAVASCRIPT | CSS | HTML | SQL | NODE | EXPRESS | EXPRESS-SESSION | BCRYPT | MASSIVE',
+            code:'https://github.com/VRTS-group/VRTS'
             
         }, {
            
             title: "Google-Chat",
             video: 'https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
             description:`lala`,
+            tools: '',
+            code:'https://github.com/valAizcorbe/React-Chat'
             
         }, {
             title: "Recipe - API",
             video: 'https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
             description:`lala`,
+            tools: '',
+            code:'https://github.com/valAizcorbe/NewRecipeApp'
             
         }
     ]
@@ -54,7 +61,10 @@ function Projects() {
         <SingleProject key={item.index}
         title={item.title}
         description={item.description}
-        video={item.video}/>
+        video={item.video}
+        tools={item.tools}
+        code={item.code}
+        />
 
     ))}
 </Grid>

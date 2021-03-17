@@ -8,7 +8,7 @@ background-color: rgba(0, 0, 0, 0.1);
 background-opacity: 0.5;
 margin: 1em;
 display: flex;
-justify-content: space-around;
+justify-content: space-evenly;
 align-items: center;
 flex-direction: column;
 `
@@ -21,11 +21,16 @@ margin-top:0;
 
 export const Description = styled.p`
 text-align: center;
-padding: 1em;
-margin: 0 1em 0 1em;
+padding: 0.5em;
+margin: 0 1em;
 font-size: large;
 `
 export const Title = styled.h1`
 font-family: 'Raleway', sans-serif;
+
+`
+export const Tools = styled.p`
+margin: 0 1em;
+text-align: center;
 
 `

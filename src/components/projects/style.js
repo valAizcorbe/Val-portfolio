@@ -43,9 +43,9 @@ margin: 1.5em;
 
 export const Pbutton = styled.button`
 border: 3px solid;
-border-color: #788AA3;
+border-color: #B2C9AB;
 background-color: transparent;
-color: #788AA3;
+color: #B2C9AB;
 border-radius: 30px;
 width: 12em;
 height: 3em;
