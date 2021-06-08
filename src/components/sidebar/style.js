@@ -27,7 +27,7 @@ position: fixed;
     width: 100%;
     height: 5em;
     flex-direction: row;
-     
+     z-index: 3;
     }
 }
 

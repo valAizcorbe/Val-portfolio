@@ -89,3 +89,37 @@ list-style-type: none;
 margin: 2px;
 `
 
+export const Imagen = styled.img`
+height:30%;
+width: 30%;
+border-radius: 50%;
+margin: 1em 2em;
+
+&& {
+    @media (max-width: 950px){
+    width: 50%;
+    height: 50%;
+    
+     
+    }
+}
+
+
+`
+
+export const FirstPart = styled.div`
+display: flex;
+flex-direction: row;
+// flex-wrap:wrap;
+justify-content: center;
+align-items: center;
+padding: 5em;
+
+
+&& {
+    @media (max-width: 950px){
+  flex-wrap: wrap;
+     
+    }
+}
+`

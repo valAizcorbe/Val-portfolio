@@ -60,8 +60,8 @@ align-items:center;
 
 
     &:hover {
-    background-color: #788AA3;
-    color: #E8DDB5; }
+    background-color: #B2C9AB;
+    color: #788AA3; }
 
     &:focus { outline: none; }
 `

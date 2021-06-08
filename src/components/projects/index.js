@@ -29,8 +29,8 @@ function Projects() {
           
             title: "Artistry",
             video: 'https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
-            description:`Group Project:
-            Artistry is a social media website for Artists. They can sign in our website, and start posting about their art, videos and writing! They can 'save' the art that other account posted, make comments and just enjoy Artistry. `,
+            description:`
+            Artistry is a social media website for Artists. They can create an account, sign in and start posting about their art. They can like, comment and 'save' the art from other accounts. `,
             tools: 'REACT | REACT REDUX | REACT PLAYER | REACT-ROUTER | JAVASCRIPT | CSS | HTML | SQL | NODE | EXPRESS | EXPRESS-SESSION | BCRYPT | MASSIVE',
             code:'https://github.com/VRTS-group/VRTS'
             
@@ -38,15 +38,15 @@ function Projects() {
            
             title: "Google-Chat",
             video: 'https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
-            description:`lala`,
-            tools: '',
+            description:`This app requires a Google authentication. It will take you to the main chat where everybody with a google account can chat at the same time!`,
+            tools: 'REACT-HOOKS | JAVASCRIPT | HTML | FIREBASE | STYLED-COMPONENTS',
             code:'https://github.com/valAizcorbe/React-Chat'
             
         }, {
             title: "Recipe - API",
             video: 'https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
-            description:`lala`,
-            tools: '',
+            description:`App that searches for the calories amount and the ingredients of a recipe`,
+            tools: 'REACT-HOOKS | JAVASCRIPT | HTML | API | NODE | STYLED COMPONENTS',
             code:'https://github.com/valAizcorbe/NewRecipeApp'
             
         }

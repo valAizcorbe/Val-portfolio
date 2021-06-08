@@ -1,12 +1,16 @@
 import React from 'react';
-import {AboutBox, ButtonResume, theme, TextAbout, List, Item, Description} from './style'
+import {AboutBox, ButtonResume, theme, TextAbout, List, Item, Description, Imagen, FirstPart} from './style'
+import vali from '../../imgs/vali1.jpg'
 
 function About() {
     return(
         <AboutBox theme={theme}>
-            
-<TextAbout>I am a full stack developer based in Utah with a background of administration and finances. I changed my career not too long ago and I finally love what I do!
+
+            <FirstPart><TextAbout>I am a full stack developer based in Utah with a background of administration and finances. I changed my career not too long ago and I finally love what I do!
 While studying development at DevMountain, I realized that I love solving problems with code and work on projects that help people. Now I’m looking for more opportunities as a developer, where I can apply my knowledge, learn new skills and help create powerful programs and websites.</TextAbout>
+
+<Imagen src={vali}/></FirstPart>
+
 
 <Description>Here are some of the Languages and Tools I have learned and used to build a website: </Description>
 
@@ -33,6 +37,7 @@ While studying development at DevMountain, I realized that I love solving proble
     <Item>CHART JS</Item>
     <Item>STYLED-COMPONENTS</Item>
     <Item>APIs</Item>
+    <Item>ANGULAR</Item>
     <Item>VS CODE</Item>
 
 </List>

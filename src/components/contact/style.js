@@ -58,7 +58,7 @@ font-size: x-large;
 
     &:hover {
     background-color: #788AA3;
-    color: #E8DDB5; }
+    color: #92B6B1; }
 
     &:focus { outline: none; }
 
