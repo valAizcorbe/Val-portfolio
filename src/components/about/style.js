@@ -57,7 +57,12 @@ font-family: 'Raleway', sans-serif;
 font-size: x-large;
 margin: 1em 3em;
 text-align: center;
-
+&& {
+    @media (max-width: 950px){
+    //    font-size: large;
+        margin: 1em;
+    }
+}
 `
 
 export const List = styled.ul`
@@ -67,6 +72,8 @@ font-weight: bold;
 font-family: 'Abel', sans-serif;
 line-height: 1.5;
 margin: 1em;
+padding: 2em 1em;
+text-align: center;
 
 && {
     @media (max-width: 950px){
@@ -82,11 +89,12 @@ font-size: x-large;
 font-weight: lighter;
 text-align: center;
 margin: 1em 2em;
+
 `
 
 export const Item = styled.li`
 list-style-type: none;
-margin: 2px;
+margin: 5px;
 `
 
 export const Imagen = styled.img`
@@ -110,16 +118,15 @@ margin: 1em 2em;
 export const FirstPart = styled.div`
 display: flex;
 flex-direction: row;
-// flex-wrap:wrap;
 justify-content: center;
 align-items: center;
-padding: 5em;
+padding: 5em 5em 0 5em;
 
 
 && {
     @media (max-width: 950px){
   flex-wrap: wrap;
-     
+     padding: 1em 1em 0 1em;
     }
 }
 `

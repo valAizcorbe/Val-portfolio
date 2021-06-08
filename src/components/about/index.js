@@ -7,10 +7,15 @@ function About() {
         <AboutBox theme={theme}>
 
             <FirstPart><TextAbout>I am a full stack developer based in Utah with a background of administration and finances. I changed my career not too long ago and I finally love what I do!
-While studying development at DevMountain, I realized that I love solving problems with code and work on projects that help people. Now I’m looking for more opportunities as a developer, where I can apply my knowledge, learn new skills and help create powerful programs and websites.</TextAbout>
+While studying development at DevMountain, I realized that I love solving problems with code and work on projects that help people. Now I’m looking for more opportunities as a developer, where I can apply my knowledge, learn new skills and help create powerful programs and websites.
+
+
+</TextAbout>
 
 <Imagen src={vali}/></FirstPart>
 
+<a href='https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:6ee32437-5ff1-45d1-b143-904b69a56956'>
+<ButtonResume>RESUME</ButtonResume></a>
 
 <Description>Here are some of the Languages and Tools I have learned and used to build a website: </Description>
 
@@ -42,8 +47,6 @@ While studying development at DevMountain, I realized that I love solving proble
 
 </List>
 
-<a href='https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:6ee32437-5ff1-45d1-b143-904b69a56956'>
-<ButtonResume>RESUME</ButtonResume></a>
 
         </AboutBox>
     )

@@ -21,7 +21,7 @@ function Projects() {
         
             title: "Avalanche",
             video: `${avalanche}`,
-            description:`Avalanche is an app that helps you calculate when you'll be debt free and start having savings. `,
+            description:`Avalanche is an app that helps you calculate through the avalanche method when you'll be debt free and start having savings. `,
             tools: 'REACT REDUX | REACT-ROUTER | JAVASCRIPT | CSS | HTML | SQL | NODE | EXPRESS | EXPRESS-SESSION | BCRYPT | MASSIVE | CHARTJS',
             code: 'https://github.com/valAizcorbe/avalanche.github.io'
             
@@ -45,7 +45,7 @@ function Projects() {
         }, {
             title: "Recipe - API",
             video: 'https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
-            description:`App that searches for the calories amount and the ingredients of a recipe`,
+            description:`App that searches for the calories amount and the ingredients of a recipe.`,
             tools: 'REACT-HOOKS | JAVASCRIPT | HTML | API | NODE | STYLED COMPONENTS',
             code:'https://github.com/valAizcorbe/NewRecipeApp'
             

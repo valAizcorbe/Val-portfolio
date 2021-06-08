@@ -23,9 +23,9 @@ position: relative;
 
 `
 
-export const Description = styled.p`
+export const Description = styled.h6`
 text-align: center;
-padding: 0.5em;
+padding: 1em;
 margin: 0 1em;
 font-size: large;
 `
