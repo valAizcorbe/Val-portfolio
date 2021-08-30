@@ -18,6 +18,8 @@ width: 100vw;
 height: 100vh;
 flex-direction: column;
 margin-right: 5em;
+overflow: hidden;
+
 && {
     @media (max-width: 950px){
     

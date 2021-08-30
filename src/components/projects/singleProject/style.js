@@ -36,5 +36,5 @@ font-family: 'Raleway', sans-serif;
 export const Tools = styled.p`
 margin: 0 1em;
 text-align: center;
-
+font-size: small;
 `

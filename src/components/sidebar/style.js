@@ -17,6 +17,8 @@ flex-direction: column;
 align-items: center;
 justify-content: space-evenly;
 position: fixed;
+overflow: hidden;
+
 & a {
     color: ${props => props.theme.dutchWhite};
     

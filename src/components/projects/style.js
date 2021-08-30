@@ -38,7 +38,7 @@ align-items: center
 export const Title = styled.h1`
 font-family: 'Raleway', sans-serif;
 margin: 1.5em;
-
+// font-size: large;
 `
 
 export const Pbutton = styled.button`
