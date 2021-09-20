@@ -1,11 +1,12 @@
 import React from 'react';
-import {Pbox, Pbutton, theme,Title, Head, Grid} from './style';
+import {Pbox, Pbutton, theme,Title, Head, Grid, Extra} from './style';
 import {AiOutlineGithub} from 'react-icons/ai'
 import {FiCode} from 'react-icons/fi'
 import SingleProject from './singleProject';
 import avalanche from '../../imgs/avalanche.mp4'
 import Chat from '../../imgs/Chat.webm'
 import Recipe2 from '../../imgs/Recipe2.webm'
+import Recipe1 from '../../imgs/Recipe1.webm'
 
 function Projects() {
 
@@ -13,8 +14,8 @@ function Projects() {
         {
          
             title: "Recipe",
-            video: ``,
-            description:'This is my first project. I build a NODB recipe app. You can add, edit, delete and update as many recipes as you want. I really enjoyed building it because I learned more while developing it.',
+            video: `${Recipe1}`,
+            description:'This is my first project. I build a NODB recipe app. You can add, edit, delete and update as many recipes as you want.',
             tools: 'REACT | JAVASCRIPT | CSS | HTML | NODE | EXPRESS',
             code: 'https://github.com/valAizcorbe/NODB'
     
@@ -27,16 +28,18 @@ function Projects() {
             tools: 'REACT REDUX | REACT-ROUTER | JAVASCRIPT | CSS | HTML | SQL | NODE | EXPRESS | EXPRESS-SESSION | BCRYPT | MASSIVE | CHARTJS',
             code: 'https://github.com/valAizcorbe/avalanche.github.io'
             
-        }, {
+        }, 
+        //{
           
-            title: "Artistry",
-            video: 'https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
-            description:`
-            Artistry is a social media website for Artists. They can create an account, sign in and start posting about their art. They can like, comment and 'save' the art from other accounts. `,
-            tools: 'REACT | REACT REDUX | REACT PLAYER | REACT-ROUTER | JAVASCRIPT | CSS | HTML | SQL | NODE | EXPRESS | EXPRESS-SESSION | BCRYPT | MASSIVE',
-            code:'https://github.com/VRTS-group/VRTS'
+        //     title: "Artistry",
+        //     video: 'https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',
+        //     description:`
+        //     Artistry is a social media website for Artists. They can create an account, sign in and start posting about their art. They can like, comment and 'save' the art from other accounts. `,
+        //     tools: 'REACT | REACT REDUX | REACT PLAYER | REACT-ROUTER | JAVASCRIPT | CSS | HTML | SQL | NODE | EXPRESS | EXPRESS-SESSION | BCRYPT | MASSIVE',
+        //     code:'https://github.com/VRTS-group/VRTS'
             
-        }, {
+        // }, 
+        {
            
             title: "Google-Chat",
             video: `${Chat}`,
@@ -47,7 +50,7 @@ function Projects() {
         }, {
             title: "Recipe - API",
             video: `${Recipe2}`,
-            description:`App that searches for the calories amount and the ingredients of a recipe.`,
+            description:`By using an API this web app searches for the calories amount in different meals.`,
             tools: 'REACT-HOOKS | JAVASCRIPT | HTML | API | NODE | STYLED COMPONENTS',
             code:'https://github.com/valAizcorbe/NewRecipeApp'
             
@@ -56,8 +59,9 @@ function Projects() {
 
     return(
         <Pbox theme={theme}>
+           
             <Head><Title>My projects </Title>
-            <a href='https://github.com/valAizcorbe'><Pbutton><FiCode/> All my work <AiOutlineGithub/></Pbutton></a> </Head>
+            <a href='https://github.com/valAizcorbe'><Pbutton><FiCode/> All my work <AiOutlineGithub/></Pbutton></a> </Head> <Extra>Here are some of my work.</Extra>
 <Grid>
     {projects.map(item => (
         <SingleProject key={item.index}
@@ -70,7 +74,7 @@ function Projects() {
 
     ))}
 </Grid>
-
+<Extra> ☺ I also built this website from scratch ☺ </Extra>
         </Pbox>
     )
 }

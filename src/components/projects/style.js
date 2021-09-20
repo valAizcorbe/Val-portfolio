@@ -14,6 +14,10 @@ color: ${props => props.theme.laurel};
 width: 100%;
 height:100%;
 margin-right: 5em;
+
+display: flex;
+flex-direction: column;
+align-items: center;
 && {
     @media (max-width: 950px){
         margin-top: 5em;
@@ -72,4 +76,8 @@ flex-flow: row wrap;
 justify-content: center;
 align-items: space-evenly;
 column-count: 3;
+`
+
+export const Extra = styled.p`
+font-style: italic;
 `
