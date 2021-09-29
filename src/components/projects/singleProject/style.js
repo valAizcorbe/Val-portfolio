@@ -12,7 +12,7 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 flex-direction: column;
-
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 `
 
 export const Video = styled.video`
