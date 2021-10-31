@@ -56,10 +56,10 @@ export const TextAbout = styled.p`
 font-family: 'Raleway', sans-serif;
 font-size: x-large;
 margin: 1em 3em;
-text-align: center;
+text-align: justify;
 && {
     @media (max-width: 950px){
-    //    font-size: large;
+   
         margin: 1em;
     }
 }
@@ -73,7 +73,7 @@ font-family: 'Abel', sans-serif;
 line-height: 1.5;
 margin: 1em;
 padding: 2em 1em;
-text-align: center;
+text-align: justify;
 
 && {
     @media (max-width: 950px){
@@ -87,7 +87,7 @@ export const Description = styled.h1`
 font-family: 'Raleway', sans-serif;
 font-size: x-large;
 font-weight: lighter;
-text-align: center;
+text-align: justify;
 margin: 1em 2em;
 
 `
@@ -125,7 +125,7 @@ padding: 5em 5em 0 5em;
 
 && {
     @media (max-width: 950px){
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
      padding: 1em 1em 0 1em;
     }
 }

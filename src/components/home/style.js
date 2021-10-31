@@ -33,7 +33,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 padding: 2em;
-text-align: center;
+text-align: justify;
 font-size: xx-large;
 font-family: 'Raleway', sans-serif;
 flex-direction: column;

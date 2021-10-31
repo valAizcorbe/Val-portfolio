@@ -29,7 +29,7 @@ function Projects() {
             code: 'https://github.com/valAizcorbe/avalanche.github.io'
             
         }, 
-        //{
+        // {
           
         //     title: "Artistry",
         //     video: 'https://www.youtube.com/18ac89b1-3196-4c61-90e6-705dec996f3e',

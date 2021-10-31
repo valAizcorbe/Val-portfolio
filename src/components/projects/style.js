@@ -11,13 +11,13 @@ export const theme = {
 export const Pbox = styled.div`
 background-color: ${props => props.theme.darkBlueG};
 color: ${props => props.theme.laurel};
-width: 100%;
-height:100vh;
+width: 100vw;
+height: 100%;
 margin-right: 5em;
-
 display: flex;
 flex-direction: column;
 align-items: center;
+overflow-x: hidden;
 && {
     @media (max-width: 950px){
         margin-top: 5em;
