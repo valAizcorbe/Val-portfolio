@@ -12,7 +12,7 @@ export const Pbox = styled.div`
 background-color: ${props => props.theme.darkBlueG};
 color: ${props => props.theme.laurel};
 width: 100%;
-height:100%;
+height:100vh;
 margin-right: 5em;
 
 display: flex;
