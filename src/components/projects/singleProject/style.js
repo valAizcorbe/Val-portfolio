@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Case = styled.div`
 width: 30em;
-height: 50em;
+height: 45em;
 background-color: rgba(0, 0, 0, 0.1);
 background-opacity: 0.5;
 margin: 2em;
