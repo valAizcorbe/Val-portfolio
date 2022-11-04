@@ -8,8 +8,7 @@ function Contact() {
 <a href='https://www.linkedin.com/in/valeriaaizcorbe/'><Button>Linked In</Button></a>
 <a href="mailto:valeria.aizcorbe@gmail.com?">
 <Button>Send me an email</Button></a>
-<a href='https://twitter.com/ValAizcorbe'><Button>Twitter</Button></a>
-<a href='https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:6ee32437-5ff1-45d1-b143-904b69a56956'>
+<a href='https://docs.google.com/document/d/1K6_RkInsDWOkJxckfHT31dZPmIsM7Re8-gHO_ie5R7k/edit?usp=sharing'>
 <Button>Resume</Button></a>
 </TextSection>
 

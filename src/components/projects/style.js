@@ -1,18 +1,17 @@
 import styled from 'styled-components';
 
 export const theme = {
-    darkBlueG: "#666A86",
-    dutchWhite: "#E8DDB5",
-    shadowBlue: '#788AA3',
-    opal: '#92B6B1',
-    laurel: '#B2C9AB'
+    white: '#ffffff',
+    purple: '#e2a0ff',
+    limeGreen: '#e8ffb7',
+    darkPurple: '#7c6bea'
 }
 
 export const Pbox = styled.div`
-background-color: ${props => props.theme.darkBlueG};
-color: ${props => props.theme.laurel};
+background-color: ${props => props.theme.white};
+color: ${props => props.theme.darkPurple};
 width: 100vw;
-height: 100%;
+height: 100vh;
 margin-right: 5em;
 display: flex;
 flex-direction: column;
@@ -42,14 +41,13 @@ align-items: center
 export const Title = styled.h1`
 font-family: 'Raleway', sans-serif;
 margin: 1.5em;
-// font-size: large;
 `
 
 export const Pbutton = styled.button`
 border: 3px solid;
-border-color: #B2C9AB;
+border-color: #7c6bea;
 background-color: transparent;
-color: #B2C9AB;
+color: #7c6bea;
 border-radius: 30px;
 width: 12em;
 height: 3em;
@@ -61,13 +59,21 @@ display:flex;
 justify-content: space-around;
 align-items:center;
 
-
-
     &:hover {
-    background-color: #B2C9AB;
-    color: #788AA3; }
-
+        background-color: #7c6bea;
+        color: #e8ffb7; }
+        
     &:focus { outline: none; }
+
+    && {
+        @media (max-width: 950px){
+            margin: 1em;
+            font-size: large;
+        }
+        @media (max-width: 400px){
+            margin: 1em ;
+        }
+    }
 `
 
 export const Grid = styled.div`

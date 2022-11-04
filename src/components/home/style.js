@@ -1,19 +1,18 @@
 import styled from 'styled-components'
 
 export const theme = {
-    darkBlueG: "#666A86",
-    dutchWhite: "#E8DDB5",
-    shadowBlue: '#788AA3',
-    opal: '#92B6B1',
-    laurel: '#B2C9AB'
+    white: '#ffffff',
+    purple: '#e2a0ff',
+    limeGreen: '#e8ffb7',
+    darkPurple: '#7c6bea'
 }
 
 export const Box = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
-color: ${props => props.theme.shadowBlue};
-background-color: ${props => props.theme.dutchWhite};
+color: ${props => props.theme.darkPurple};
+background-color: ${props => props.theme.white};
 width: 100vw;
 height: 100vh;
 flex-direction: column;
@@ -22,11 +21,14 @@ overflow: hidden;
 
 && {
     @media (max-width: 950px){
-    
-    margin-top: 5em;
-        
+    margin-top: 2em;
+    }
+
+    @media (max-width: 400px) {
+        font-size: x-large;
     }
 }
+
 `
 export const Intro = styled.p`
 display: flex;
@@ -40,7 +42,14 @@ flex-direction: column;
 
 && {
     @media (max-width: 900px) {
+        font-size: x-large;
+    }
+}
+
+&& {
+    @media (max-width: 400px) {
         font-size: large;
+        margin: 2em;
 
     }
 }
@@ -64,6 +73,10 @@ margin: 4em 0.5em 0.5em 0.5em;
         width: 50%;
         height: 20%;
 
+    }
+    @media (max-width: 400px) {
+        height: 15%;
+        margin: 1em 0 0 0
     }
 }
 `

@@ -1,26 +1,27 @@
 import styled from 'styled-components'
 
 export const theme = {
-    darkBlueG: "#666A86",
-    dutchWhite: "#E8DDB5",
-    shadowBlue: '#788AA3',
-    opal: '#92B6B1',
-    laurel: '#B2C9AB'
+    white: '#ffffff',
+    purple: '#e2a0ff',
+    limeGreen: '#e8ffb7',
+    darkPurple: '#7c6bea'
 }
 
 export const Bar = styled.div`
 height: 100%;
 width: 5em;
-background-color: ${props => props.theme.shadowBlue};
+background-color: ${props => props.theme.white};
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-evenly;
 position: fixed;
 overflow: hidden;
+border: 2px solid;
+border-color: ${props => props.theme.limeGreen};
 
 & a {
-    color: ${props => props.theme.dutchWhite};
+    color: ${props => props.theme.purple};
     
 }
 
