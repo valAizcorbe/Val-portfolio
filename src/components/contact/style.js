@@ -25,13 +25,11 @@ overflow: hidden;
     @media (max-width: 400px){
         margin-top: 0em;
         font-size: x-large;
-
     }
 }
 
 & a{
     text-decoration: none;
-    
 }
 `
 
